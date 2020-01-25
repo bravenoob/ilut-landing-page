@@ -8,18 +8,21 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>Liut Landing Page</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 </head>
 
@@ -28,8 +31,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <a class="navbar-brand" href="#">
+        <span class="logo"></span>
+      </a>
+      <a class="btn btn-primary" href="http://beta.ilut.io/">Sign In</a>
     </div>
   </nav>
 
@@ -39,17 +44,20 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+          <h1 class="mb-5">Track all your skills and be in the know!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
+          <form action="https://send.pageclip.co/AlkDCu80dFZM8ruSkppuPteu770sBaQ9" class="form-row pageclip-form"
+                method="post">
+            <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email...">
+            </div>
+            <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-primary pageclip-form__submit">
+                <span>Sign up!</span>
+              </button>
             </div>
           </form>
         </div>
@@ -64,28 +72,30 @@
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
+              <i class="icon-note m-auto text-primary"></i>
             </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+            <h3>Track</h3>
+            <p class="lead mb-0">Submit your used skills on a regular basis. Specify on which project you used them and
+              leave a quick description!</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
+              <i class="icon-chart m-auto text-primary"></i>
             </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+            <h3>Explore</h3>
+            <p class="lead mb-0">See how you do on each skill. Find room for improvement and see your portfolio
+              grow! </p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
+              <i class="icon-docs m-auto text-primary"></i>
             </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+            <h3>Reports</h3>
+            <p class="lead mb-0">Create reports of your skills and show why you are the right person for this job!</p>
           </div>
         </div>
       </div>
@@ -97,58 +107,67 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/track.gif');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>Tracking made easy</h2>
+          <p class="lead mb-0">It was never easier to track your skills. Find your recent used skills, or checkout
+            popular
+            skills in your field of work. Or just start to type, simple as that. A monthly check-in notification will
+            make sure you won't forget to stay on track!</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/explore.png');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Explore with Graphics</h2>
+          <p class="lead mb-0">An advanced rating algorithm shows how proficient you are in a certain skill. The
+            ILûT-star rating system enables your to compare yourself with others.
+            Beautiful charts makes it easy to see your development over time!</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img"
+             style="background-image: url('img/reports.png');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Reporting capabilities</h2>
+          <p class="lead mb-0">Required: 2 years of experience in two projects.</p>
+          <p class="lead mb-0">That's a common requirement in a job listing. But how to prove it?
+            No problem with ILûT. Create reports that match your needs and include them in your job application in no
+            time!</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
-    <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!--  <section class="testimonials text-center bg-light">-->
+  <!--    <div class="container">-->
+  <!--      <h2 class="mb-5">What people are saying...</h2>-->
+  <!--      <div class="row">-->
+  <!--        <div class="col-lg-4">-->
+  <!--          <div class="testimonial-item mx-auto mb-5 mb-lg-0">-->
+  <!--            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">-->
+  <!--            <h5>Margaret E.</h5>-->
+  <!--            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--        <div class="col-lg-4">-->
+  <!--          <div class="testimonial-item mx-auto mb-5 mb-lg-0">-->
+  <!--            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">-->
+  <!--            <h5>Fred S.</h5>-->
+  <!--            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--        <div class="col-lg-4">-->
+  <!--          <div class="testimonial-item mx-auto mb-5 mb-lg-0">-->
+  <!--            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">-->
+  <!--            <h5>Sarah W.</h5>-->
+  <!--            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </section>-->
 
   <!-- Call to Action -->
   <section class="call-to-action text-white text-center">
@@ -156,16 +175,17 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4">Ready to start tracking? Sign up now for the private beta!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+
+          <form action="https://send.pageclip.co/AlkDCu80dFZM8ruSkppuPteu770sBaQ9" class="pageclip-form" method="post">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Enter your email...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                <button type="submit" class="btn btn-block btn-lg btn-primary pageclip-form__submit">Sign up!</button>
               </div>
             </div>
           </form>
@@ -196,22 +216,27 @@
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; ilut.io 2020. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
+              <a href="https://www.facebook.com/ilut">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              <a href="https://www.linkedin.com/ilut">
+                <i class="fab fa-linkedin fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="https://www.xing.com/ilut">
+                <i class="fab fa-xing-square fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.instagram.com/ilut/">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
@@ -224,6 +249,11 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+  <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
 
 </body>
 

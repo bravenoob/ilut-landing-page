@@ -2,6 +2,32 @@ body {
   @include body-font;
 }
 
+.logo-img {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/FullColor_IconOnly_1024x1024_72dpi.jpg') no-repeat center center;
+  background-size: contain;
+}
+.logo-text {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/FullColor_TextOnly_1024x1024_72dpi.jpg') no-repeat center center;
+  background-size: contain;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/FullColor_TransparentBg_1024x1024_72dpi.png') no-repeat center center;
+  background-size: cover;
+}
+
 h1,
 h2,
 h3,
@@ -10,4 +36,26 @@ h5,
 h6 {
   @include body-font;
   font-weight: 700;
+  color: $primary;
 }
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+}
+.btn-primary:hover {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+a {
+  color: orange;
+}
+a:hover{
+  color: $primary;
+}
+
+.text-muted{
+  color: orange !important;
+}
+
